@@ -7,12 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    
+
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
-  
+    <!-- AOS css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <title>My Portofolio | Thian Samudra</title>
+    <title>My Portfolio | Thian Samudra</title>
   </head>
   <body>
     <!-- navbar -->
@@ -44,9 +45,9 @@
 
     <!-- jumbotron -->
     <section id="home" class="jumbotron text-center mt-5 pt-5">
-      <img src="img/profil.jpg" alt="Thian Samudra Herlambang" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Thian Samudra Herlambang</h1>
-      <p class="lead">I'm Web Frontend Developer</p>
+      <img src="img/profil.jpg" alt="Thian Samudra Herlambang" class="rounded-circle img-thumbnail img-fluid" data-aos="flip-right" data-aos-duration="800" />
+      <h1 class="display-4" data-aos="fade-down" data-aos-delay="20" data-aos-duration="800">Thian Samudra Herlambang</h1>
+      <p class="lead"></p>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -67,16 +68,33 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, accusamus recusandae. Repudiandae magnam quos ratione impedit, sapiente consequatur nemo distinctio temporibus modi deserunt. Nihil, itaque.</p>
-          </div>
-          <div class="col-md-4">
+          <div class="col-sm-8 text-justify" data-aos="fade-right" data-aos-duration="1000">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere nihil minus nobis mollitia itaque, quidem expedita doloremque soluta vero quaerat esse corrupti nemo cupiditate praesentium aut earum deleniti pariatur.
+              Halo! Perkenalkan, saya Thian Samudra Herlambang, seorang mahasiswa yang penuh semangat dengan dunia teknologi khususnya dalam bidang pengembangan frontend. Saya percaya bahwa desain yang baik adalah kunci untuk pengalaman
+              pengguna yang memikat dan fungsional.
+            </p>
+            <p>
+              Sejak kecil, saya selalu tertarik dengan komputer dan bagaimana hal-hal berinteraksi di layar. Ketertarikan ini mendorong saya untuk mulai mempelajari coding dan desain web. Saya menemukan kepuasan besar ketika bisa mengubah
+              ide menjadi sesuatu yang nyata, terutama melalui kode-kode HTML, CSS, dan JavaScript yang saya tulis.
+            </p>
+            <p>
+              Sebagai seorang mahasiswa, saya selalu bersemangat untuk belajar hal-hal baru dan memperluas keterampilan teknis saya. Saya aktif mengikuti perkembangan terbaru dalam teknologi web dan mencoba untuk mengaplikasikan pengetahuan
+              baru itu dalam setiap proyek yang saya kerjakan. Selain itu, saya juga tertarik untuk memahami bagaimana desain interaksi dan antarmuka pengguna dapat mempengaruhi pengalaman pengguna secara keseluruhan.
+            </p>
+            <p>
+              Saya percaya bahwa kombinasi antara kreativitas dan keterampilan teknis sangat penting dalam bidang frontend development. Saya senang bekerja dalam tim dan berkolaborasi dengan orang-orang yang memiliki minat dan visi yang
+              sama dalam menciptakan produk yang inovatif dan bermanfaat bagi pengguna.
+            </p>
+            <p>Selain belajar tentang teknologi, saya juga menikmati menggambar dan seni digital. Saya merasa bahwa kreativitas ini juga memberi saya perspektif unik dalam mendekati setiap proyek pengembangan web yang saya kerjakan.</p>
+            <p>
+              Terima kasih telah mengenal sedikit tentang saya! Saya selalu terbuka untuk berdiskusi dan berbagi pengalaman dengan orang-orang yang memiliki minat yang sama atau ingin belajar lebih banyak tentang dunia frontend development.
+              Ayo terhubung!
             </p>
           </div>
         </div>
       </div>
+
+      <!-- Background Wave SVG -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#e2edff"
@@ -85,6 +103,7 @@
         ></path>
       </svg>
     </section>
+
     <!-- akhir About -->
 
     <!-- Project -->
@@ -92,45 +111,45 @@
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3">
-            <h2>My Project</h2>
+            <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project1.jpg" class="card-img-top" alt="Project 1" />
+          <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card" data-aos="flip-left">
+              <img src="img/project1.jpg" class="card-img-top img-fluid" alt="Project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project2.jpg" class="card-img-top" alt="Project 2" />
+          <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-delay="500">
+              <img src="img/project2.jpg" class="card-img-top img-fluid" alt="Project 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project3.jpg" class="card-img-top" alt="Project 3" />
+          <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-delay="1000">
+              <img src="img/project3.jpg" class="card-img-top img-fluid" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project4.jpg" class="card-img-top" alt="Project 4" />
+          <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-delay="1500">
+              <img src="img/project4.jpg" class="card-img-top img-fluid" alt="Project 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/project5.jpg" class="card-img-top" alt="Project 5" />
+          <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-delay="2000">
+              <img src="img/project5.jpg" class="card-img-top img-fluid" alt="Project 5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -157,7 +176,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-12">
             <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
               <strong>Pesan Anda</strong> Sudah Kami Terima
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -210,5 +229,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/contact-form.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.from(".navbar", { duration: 1, opacity: 0, y: -100, ease: "bounce" });
+      gsap.to(".lead", { duration: 3, delay: 0.5, text: "I'm a Web Frontend Developer" });
+    </script>
   </body>
 </html>
